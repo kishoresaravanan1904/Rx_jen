@@ -1,0 +1,62 @@
+﻿<repository
+id="1688a298-571e-4920-8f9d-a77ff4d8325f"
+name="Rx_jenRepository">
+	<codegen
+	classname="Rx_jenRepository"
+	namespace="Rx_jen">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3f5081eb-32ac-4f2c-8fd2-fb6fce2bb3a7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="1fe07fa9-902d-453d-a540-d718fc6c6742"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@automationid='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f6911890-d0ab-4718-8e11-6611bb4056a2"
+			name="EnterYourName"
+			refimgid="ee63b2e6-56eb-4f36-a802-47164db139d3"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']/text[@automationid='txtUserName']/text[@accessiblename='Enter your name']"
+			robustPath="/form[@automationid='RxMainFrame']//text[@accessiblename='Enter your name']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="13d53bb5-4250-475a-89bb-90efb39efa68"
+			name="BtnSubmitUserName"
+			refimgid="7718529d-4a50-4a4a-b090-8afe48e2acc6"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']/button[@text='Submit']"
+			robustPath="/form[@automationid='RxMainFrame']//button[@text='Submit']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']/button[@text='Submit']
+			</item>
+			<basepath>
+				/form[@automationid='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e0cc9fda-e49a-41ff-95ee-8a670b8e78da"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Rx_jen">
+	</codegen>
+	<variables>
+		<var
+		id="97f74daa-f9a6-4c5c-ba7e-fc90b0af9106"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="576ba97d-b19c-4a91-9406-ab60c84ce1c7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="1688a298-571e-4920-8f9d-a77ff4d8325f"
+	name="Rx_jenRepository"
+	relativepath="Rx_jenRepository.rxrep">
+		<codegen
+		classname="Rx_jenRepository"
+		namespace="Rx_jen">
+		</codegen>
+		<rootfolder
+		id="3f5081eb-32ac-4f2c-8fd2-fb6fce2bb3a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
